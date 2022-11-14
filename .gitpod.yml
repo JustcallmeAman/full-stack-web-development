@@ -7,3 +7,6 @@ tasks:
     command: npm run dev
 
 
+ports:
+  - port: 5173
+    onOpen: open-preview
